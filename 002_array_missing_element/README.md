@@ -1,10 +1,12 @@
+## Array Missing Element
+
 A zero-indexed array A consisting of N different integers is given. The array contains integers in the range [1..(N + 1)], which means that exactly one element is missing.
 
 Your goal is to find that missing element.
 
 Write a function:
 
-def solution(a)
+`def solution(a)`
 
 that, given a zero-indexed array A, returns the value of the missing element.
 
@@ -27,7 +29,7 @@ expected worst-case time complexity is O(N);
 expected worst-case space complexity is O(1), beyond input storage (not counting the storage required for input arguments).
 Elements of input arrays can be modified.
 
-## Francisco's Anwser: 10%
+## Francisco's Answer: 10%
 
 ```ruby
 def solution(a)
@@ -53,7 +55,7 @@ def solution(a)
 end
 ```
 
-## Filibs' Answer: 50%
+## Filib's Answer: 50%
 
 ```ruby
 def solution(a)
